@@ -1,0 +1,28 @@
+body{
+    background-color: #96A18A;
+}
+h1{
+   margin: 30px;
+}
+header{
+    text-align: center;
+    background-color: #4B7D87;
+    width: auto;
+    height: 100px;
+    margin: auto 100 auto 100;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+h3{
+    text-align: center;
+}
+input{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    color: blue;
+}
+#validation{
+    display: block;
+    margin: 30px auto;
+}

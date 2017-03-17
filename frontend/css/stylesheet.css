@@ -14,7 +14,7 @@
 \************************************************/
 @font-face {
   font-family: 'Folkard';
-  src: url('/fonts/folkard_.ttf');
+  src: url('fonts/folkard_.ttf');
 }
 
 .kaamelott-font {
@@ -26,23 +26,42 @@
 2. Navbar
 ==================================================
 \************************************************/
+nav{
+  border: 1px solid black;
+  height: 100px;
+  background-color: #B09F91;
 
-
+}
+.imgnav{
+  margin-left: 190px;
+  float: left;
+  width: 150px;
+  height: 100px;
+}
+h4{
+  padding-top: 30px;
+  text-align: center;
+}
 /************************************************\
 ==================================================
 3. Citation
 ==================================================
 \************************************************/
+.titre{
+  color: black;
+  text-align: center;
+  font-family: 'Folkard'
+}
 .kaamelott-underline {
   border-bottom: solid 5px #a57824;
+  height: 400px;
+  padding: 20px;
 }
-
-.kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
+.kaamelott-banner jumbotron  {
+  background-image: url('img/kaamelott-banner.jpg');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 p.source {
@@ -110,3 +129,16 @@ blockquote {
 4. Footer
 ==================================================
 \************************************************/
+i{
+  width: 100px;
+}
+#conteneur{
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 600px){
+  #conteneur{
+    display: flex;
+    justify-content: center;
+  }
+}
